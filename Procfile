@@ -1,1 +1,1 @@
-worker: python telegram-bot-major-project.py
+worker: python hrishitha-project-major-internship.py
