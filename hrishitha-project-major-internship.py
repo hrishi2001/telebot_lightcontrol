@@ -13,7 +13,6 @@ def turnon(update, context):
   context.bot.send_message(chat_id=update.effective_chat.id, text="Led turned on")
   context.bot.send_photo(chat_id=update.effective_chat.id,photo='https://tse3.mm.bing.net/th?id=OIP.TCWC_VI2VD81i9jr-ys7PQHaE7&pid=Api&P=0&w=250&h=167')
   send_value(1)
-
 def send_value(value):
   feed = aio.feeds('light')
   aio.send_data(feed.key,value)
