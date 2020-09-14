@@ -1,4 +1,4 @@
 Adafriut-io
 Requests
 os
-telebot_lightcontrol
+python-telegram-bot
