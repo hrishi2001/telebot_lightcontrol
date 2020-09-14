@@ -38,7 +38,6 @@ def start(update,context):
   ADAFRUIT_IO_USERNAME = os.getenv('hrishi_2001')  #username declared
 ADAFRUIT_IO_KEY = os.getenv('aio_SAfP37Kcd97pLeG7FA8gFyYiISFp')  #io key declared
 TOKEN = os.getenv('1104507848:AAGFPfk5kIqZz2JXHYyIebnGYV581MZlXsE')  #token declared
-
 aio = Client(ADAFRUIT_IO_USERNAME,ADAFRUIT_IO_KEY)
 updater=Updater(TOKEN,use_context=True)
 dispatcher = updater.dispatcher
