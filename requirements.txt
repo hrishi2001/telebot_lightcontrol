@@ -1,4 +1,3 @@
 adafruit-io
 requests
 python-telegram-bot
-os
