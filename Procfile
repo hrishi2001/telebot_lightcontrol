@@ -1,2 +1,2 @@
-worker: python hrishitha-project-major-internship.py
+worker:python hrishitha-project-major-internship.py
 
